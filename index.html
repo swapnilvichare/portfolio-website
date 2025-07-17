@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Swap's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+    <h1>Welcome to Swap's Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Swap, an aspiring developer building apps and websites.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+        <div class="project-card">
+            <img src="images/todo.png" alt="To-Do App">
+            <h3>To-Do App</h3>
+            <p>A simple to-do app using JavaScript with local storage.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+        <div class="project-card">
+            <img src="images/wheather.png" alt="To-Do App">
+            <h3>To-Do App</h3>
+            <p>Get real-time wheather updates using an API.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+        <div class="project-card">
+            <img src="images/calculator.png" alt="To-Do App">
+            <h3>To-Do App</h3>
+            <p>Get real-time wheather updates using an API.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+        <div class="project-card">
+            <img src="images/notes.png" alt="To-Do App">
+            <h3>To-Do App</h3>
+            <p>Get real-time wheather updates using an API.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+    </div>
+    
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form" action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+        <input type="hidden" name="reply_to" value="">
+        <button type="submit">Send Message</button>
+        <div class="spinner" style="display: none;"></div>
+    </form>
+
+    <div id="form-message" style="text-align: center;margin-top: 15px;"></div>
+    
+  </section>
+
+  <footer>
+    <p>© 2025 Swapnil Vichare</p>
+  </footer>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
